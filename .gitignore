@@ -1,14 +1,57 @@
-*.tar
-*.tar.*
-*.jar
-*.exe
-*.msi
-*.deb
-*.zip
-*.tgz
-*.log
-*.log.*
-*.sig
 
-pkg/
-src/
+# MarineEdge - Yocto Embedded Linux Project
+
+# Yocto build output and caches
+build/
+build-*/
+tmp/
+tmp-*/
+downloads/
+sstate-cache/
+cache/
+buildhistory/
+
+# Generated Yocto images and packages
+*.wic
+*.wic.gz
+*.wic.bz2
+*.ext4
+*.squashfs
+*.rootfs.tar.*
+*.qemuboot.conf
+
+# Local BitBake configuration
+local.conf
+bblayers.conf
+sanity_info
+
+# Python virtual environments
+.venv/
+venv/
+*-venv/
+__pycache__/
+*.pyc
+
+# C/C++ compiled files
+*.o
+*.a
+*.so
+*.so.*
+*.elf
+*.map
+
+# CMake build files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*~
+
+# Logs and temporary files
+*.log
+*.tmp
