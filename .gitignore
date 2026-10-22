@@ -55,3 +55,7 @@ compile_commands.json
 # Logs and temporary files
 *.log
 *.tmp
+
+# mcufw esp32 idf (sdk) files
+/mcufw/esp32s3/esp-idf
+/mcufw/esp32s3/build
